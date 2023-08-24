@@ -1,0 +1,31 @@
+.box {
+  margin-top: 20px;
+}
+
+.box > button {
+  width: 100px;
+  height: 50px;
+}
+
+.counter_wallpaper {
+  width: 250px;
+  height: 150px;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.counter_container {
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.number {
+  font-size: 40px;
+  margin: 0px 10px;
+}
+
+.colon {
+  font-size: 20px;
+}
