@@ -25,7 +25,7 @@ $(document).ready(function(){
            $("#three").text(cnt2);
          }
          
-         if(cnt2 >= 6){
+         if(cnt2 > 9){
               cnt2 = 0;
               $("#three").text("0");
               cnt3++;
@@ -54,7 +54,7 @@ $(document).ready(function(){
       $("#reset").prop("disabled",false);
     }
 
-    timer1 = setInterval(event, 1000);
+    timer1 = setInterval(event, 100);
   });
   
   $("#stop").click(function(){
